@@ -13,4 +13,5 @@ det(J)
 K <-cbind(G[ ,1:5], J[ ,1:5])
 K
 G1 <- solve(G)
+G1
 G%*%G1
